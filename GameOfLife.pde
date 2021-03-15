@@ -7,7 +7,7 @@ import de.bezier.guido.*;
   private boolean running = true; //used to start and stop program
 
   public void setup () {
-    size(700,700);
+    size(600,600);
     frameRate(6);
     // make the manager
     Interactive.make(this);
@@ -111,8 +111,8 @@ import de.bezier.guido.*;
     private boolean alive;
 
     public Life (int row,int col) {
-      width=700/NUM_COLS;
-      height=700/NUM_ROWS;
+      width=600/NUM_COLS;
+      height=600/NUM_ROWS;
       myRow=row;
       myCol=col; 
       x=myCol*width;

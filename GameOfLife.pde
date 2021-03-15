@@ -71,7 +71,7 @@ import de.bezier.guido.*;
       buttons[r][c].alive=false;
   }
   public void copyFromButtonsToBuffer() {
-    //your code here
+     //your code here
   for(int r=0; r<NUM_ROWS; r++)
     for(int c=0; c<NUM_COLS; c++)
       if(buttons[r][c].alive==true)
